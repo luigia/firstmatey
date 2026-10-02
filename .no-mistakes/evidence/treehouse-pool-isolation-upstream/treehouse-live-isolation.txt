@@ -1,0 +1,37 @@
+warning: You appear to have cloned an empty repository.
+🌳 Setting up worktree...
+🌳 Leased worktree at ~/.treehouse/project-4d5940/1/project. Run 'treehouse return ~/.treehouse/project-4d5940/1/project' to release it.
+🌳 Setting up worktree...
+🌳 Leased worktree at ~/.treehouse/project-4d5940/1/project. Run 'treehouse return ~/.treehouse/project-4d5940/1/project' to release it.
+A new version of treehouse is available: v2.3.0 → v3.1.1
+Run "treehouse update" to update
+
+A new version of treehouse is available: v2.3.0 → v3.1.1
+Run "treehouse update" to update
+
+Treehouse: v2.3.0
+Pool A root: /private/var/folders/7w/bmsgd60s6297slcw90cwqlm80000gn/T/fm-treehouse-live.ypLo3k/pools/eea2ed9d34f3
+Pool B root: /private/var/folders/7w/bmsgd60s6297slcw90cwqlm80000gn/T/fm-treehouse-live.ypLo3k/pools/c6693bc971f3
+Home A leased worktree: /private/var/folders/7w/bmsgd60s6297slcw90cwqlm80000gn/T/fm-treehouse-live.ypLo3k/pools/eea2ed9d34f3/.treehouse/project-4d5940/1/project
+Home B leased worktree: /private/var/folders/7w/bmsgd60s6297slcw90cwqlm80000gn/T/fm-treehouse-live.ypLo3k/pools/c6693bc971f3/.treehouse/project-4d5940/1/project
+Shared injected root remained unused: /private/var/folders/7w/bmsgd60s6297slcw90cwqlm80000gn/T/fm-treehouse-live.ypLo3k/attacker-shared-root
+Pool A status while leased: [{"name":"1","path":"/private/var/folders/7w/bmsgd60s6297slcw90cwqlm80000gn/T/fm-treehouse-live.ypLo3k/pools/eea2ed9d34f3/.treehouse/project-4d5940/1/project","status":"leased","flavor":"git","lease_id":"3f36052a3db75e4e8da0123d38f08b82","lease_holder":"fm-home-a","leased_at":"2026-10-02T12:50:36.28462-04:00","processes":[]}]
+Pool B status while leased: [{"name":"1","path":"/private/var/folders/7w/bmsgd60s6297slcw90cwqlm80000gn/T/fm-treehouse-live.ypLo3k/pools/c6693bc971f3/.treehouse/project-4d5940/1/project","status":"leased","flavor":"git","lease_id":"ed9192d5e2a76629eceab2f67e3a03cb","lease_holder":"fm-home-b","leased_at":"2026-10-02T12:50:36.509677-04:00","processes":[]}]
+Credential bridge: git-credentials=/private/var/folders/7w/bmsgd60s6297slcw90cwqlm80000gn/T/fm-treehouse-live.ypLo3k/user-home/.git-credentials netrc=/private/var/folders/7w/bmsgd60s6297slcw90cwqlm80000gn/T/fm-treehouse-live.ypLo3k/user-home/.netrc config-git=/private/var/folders/7w/bmsgd60s6297slcw90cwqlm80000gn/T/fm-treehouse-live.ypLo3k/user-home/.config/git config-treehouse-absent=yes
+A new version of treehouse is available: v2.3.0 → v3.1.1
+Run "treehouse update" to update
+
+🌳 Worktree returned to pool.
+A new version of treehouse is available: v2.3.0 → v3.1.1
+Run "treehouse update" to update
+
+🌳 Worktree returned to pool.
+A new version of treehouse is available: v2.3.0 → v3.1.1
+Run "treehouse update" to update
+
+A new version of treehouse is available: v2.3.0 → v3.1.1
+Run "treehouse update" to update
+
+Pool A status after product return: [{"name":"1","path":"/private/var/folders/7w/bmsgd60s6297slcw90cwqlm80000gn/T/fm-treehouse-live.ypLo3k/pools/eea2ed9d34f3/.treehouse/project-4d5940/1/project","status":"available","flavor":"git","lease_id":"","lease_holder":"","leased_at":null,"processes":[]}]
+Pool B status after product return: [{"name":"1","path":"/private/var/folders/7w/bmsgd60s6297slcw90cwqlm80000gn/T/fm-treehouse-live.ypLo3k/pools/c6693bc971f3/.treehouse/project-4d5940/1/project","status":"available","flavor":"git","lease_id":"","lease_holder":"","leased_at":null,"processes":[]}]
+PASS: two firstmate homes acquired and returned independent real Treehouse worktrees despite hostile shared-root settings.

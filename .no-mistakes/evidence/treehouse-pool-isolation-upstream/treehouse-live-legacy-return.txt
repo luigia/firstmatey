@@ -1,0 +1,21 @@
+warning: You appear to have cloned an empty repository.
+🌳 Setting up worktree...
+🌳 Leased worktree at ~/.treehouse/project-bb2216/1/project. Run 'treehouse return ~/.treehouse/project-bb2216/1/project' to release it.
+A new version of treehouse is available: v2.3.0 → v3.1.1
+Run "treehouse update" to update
+
+A new version of treehouse is available: v2.3.0 → v3.1.1
+Run "treehouse update" to update
+
+🌳 Worktree returned to pool.
+A new version of treehouse is available: v2.3.0 → v3.1.1
+Run "treehouse update" to update
+
+Treehouse: v2.3.0
+Legacy root: /private/var/folders/7w/bmsgd60s6297slcw90cwqlm80000gn/T/fm-treehouse-legacy.qReIRc/legacy-machine-pool
+Leased worktree: /private/var/folders/7w/bmsgd60s6297slcw90cwqlm80000gn/T/fm-treehouse-legacy.qReIRc/legacy-machine-pool/.treehouse/project-bb2216/1/project
+Computed new per-home root (unused): /private/var/folders/7w/bmsgd60s6297slcw90cwqlm80000gn/T/fm-treehouse-legacy.qReIRc/new-pools/cf6fea4dfa51
+Inherited hostile root (unused): /private/var/folders/7w/bmsgd60s6297slcw90cwqlm80000gn/T/fm-treehouse-legacy.qReIRc/inherited-shared-root
+Legacy pool before return: [{"name":"1","path":"/private/var/folders/7w/bmsgd60s6297slcw90cwqlm80000gn/T/fm-treehouse-legacy.qReIRc/legacy-machine-pool/.treehouse/project-bb2216/1/project","status":"leased","flavor":"git","lease_id":"49f642331e7aa80a207120f90df93efc","lease_holder":"legacy-task","leased_at":"2026-10-02T12:51:56.380166-04:00","processes":[]}]
+Legacy pool after return: [{"name":"1","path":"/private/var/folders/7w/bmsgd60s6297slcw90cwqlm80000gn/T/fm-treehouse-legacy.qReIRc/legacy-machine-pool/.treehouse/project-bb2216/1/project","status":"available","flavor":"git","lease_id":"","lease_holder":"","leased_at":null,"processes":[]}]
+PASS: product return recovered and released the legacy originating root from the worktree layout.
