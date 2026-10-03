@@ -1,0 +1,7 @@
+not ok - the first restart watcher did not surface its actionable signal: 
+/Users/luigi/.no-mistakes/worktrees/3fecfed7f577/01M40X9GQPDBRR9JZSA1M90ZN5/tests/lib.sh: line 179: 85527 Killed: 9               FM_ROOT_OVERRIDE="$ROOT" FM_HOME="$RESTART_HOME" bash -c '
+  . "$1/bin/fm-wake-lib.sh"
+  fm_lock_acquire_wait "$2/state/.home-summary-refresh.lock"
+  : > "$3"
+  while :; do sleep 1; done
+' _ "$ROOT" "$RESTART_HOME" "$RESTART_LOCK_MARKER"

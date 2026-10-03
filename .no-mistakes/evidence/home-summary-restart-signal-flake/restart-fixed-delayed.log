@@ -1,0 +1,24 @@
+ok - publication remains single-flight across watcher restart
+
+--- restart-watch-one.out ---
+signal: /Users/luigi/.no-mistakes/worktrees/3fecfed7f577/01M40X9GQPDBRR9JZSA1M90ZN5/.validation-restart/tmp/fm-home-summary-refresh.lMOceq/restart-home/state/restart-task.status
+
+--- restart-watch-three.out ---
+check: rearm-resurface
+
+--- restart-watch-two.out ---
+check: rearm-resurface
+
+--- restart-watch-one.err ---
+delaying first poll after beacon by 7s
+
+--- restart-watch-three.err ---
+
+--- restart-watch-two.err ---
+
+--- recovered home-summary.json ---
+{
+  "schema": "fm-secondmate-home-summary.v1",
+  "valid": false,
+  "state": "unknown"
+}

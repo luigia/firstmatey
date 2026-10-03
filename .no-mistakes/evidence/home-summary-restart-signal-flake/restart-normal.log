@@ -1,0 +1,23 @@
+ok - publication remains single-flight across watcher restart
+
+--- restart-watch-one.out ---
+signal: /private/var/folders/7w/bmsgd60s6297slcw90cwqlm80000gn/T/fm-home-summary-refresh.dE1Ppy/restart-home/state/restart-task.status
+
+--- restart-watch-three.out ---
+check: rearm-resurface
+
+--- restart-watch-two.out ---
+check: rearm-resurface
+
+--- restart-watch-one.err ---
+
+--- restart-watch-three.err ---
+
+--- restart-watch-two.err ---
+
+--- recovered home-summary.json ---
+{
+  "schema": "fm-secondmate-home-summary.v1",
+  "valid": false,
+  "state": "unknown"
+}
