@@ -1,0 +1,213 @@
+{
+  "schema": "fm-secondmate-home-summary.v1",
+  "hold_classifier_schema": "fm-captain-hold-buckets.v1",
+  "contributions": {
+    "known": 1,
+    "checked": 0,
+    "counts": {
+      "captain": 0,
+      "fleet": 1,
+      "maintainer": 0,
+      "nobody": 0
+    },
+    "unmeasured": 0,
+    "complete": false,
+    "proven_clear": false,
+    "stale_verdicts": 0,
+    "missing_verdicts": 0,
+    "unreadable_records": 0,
+    "valid_until": 900,
+    "captain": [],
+    "captain_omitted": 0
+  },
+  "generated": "2026-07-25T00:00:00Z",
+  "generated_epoch": 1784937600,
+  "home": "/Users/luigi/.no-mistakes/worktrees/3fecfed7f577/01M40X55R4W1PVBEV3HNFZBJ5B/.test-summary-live/home",
+  "valid": true,
+  "reason": null,
+  "invalidity": {
+    "kind": null,
+    "ids": []
+  },
+  "state": "captain_decision",
+  "active_children": [],
+  "decisions_open": [
+    {
+      "id": "encoded-call",
+      "key": "encoded-call",
+      "verb": "captain-hold",
+      "summary": "Choose route",
+      "reason": "Choose (blue), \"green\" — café second line",
+      "hold_until": null,
+      "hold_bucket": "live",
+      "hold_age_days": 1,
+      "source": "backlog"
+    },
+    {
+      "id": "plain-call",
+      "key": "plain-call",
+      "verb": "captain-hold",
+      "summary": "Plain route",
+      "reason": "literal reason",
+      "hold_until": null,
+      "hold_bucket": "live",
+      "hold_age_days": 1,
+      "source": "backlog"
+    },
+    {
+      "id": "malformed-call",
+      "key": "malformed-call",
+      "verb": "captain-hold",
+      "summary": "Malformed marker",
+      "reason": "fm-hold-v1:%%%",
+      "hold_until": null,
+      "hold_bucket": "live",
+      "hold_age_days": 1,
+      "source": "backlog"
+    },
+    {
+      "id": "invalid-utf8-call",
+      "key": "invalid-utf8-call",
+      "verb": "captain-hold",
+      "summary": "Invalid UTF-8 marker",
+      "reason": "fm-hold-v1:/w==",
+      "hold_until": null,
+      "hold_bucket": "live",
+      "hold_age_days": 1,
+      "source": "backlog"
+    }
+  ],
+  "holds": [
+    {
+      "id": "encoded-call",
+      "title": "Choose route",
+      "blocked_by": null,
+      "blocked_by_ids": [],
+      "unresolved_blocker_ids": [],
+      "reason": "Choose (blue), \"green\" — café second line",
+      "source": "backlog"
+    },
+    {
+      "id": "plain-call",
+      "title": "Plain route",
+      "blocked_by": null,
+      "blocked_by_ids": [],
+      "unresolved_blocker_ids": [],
+      "reason": "literal reason",
+      "source": "backlog"
+    },
+    {
+      "id": "malformed-call",
+      "title": "Malformed marker",
+      "blocked_by": null,
+      "blocked_by_ids": [],
+      "unresolved_blocker_ids": [],
+      "reason": "fm-hold-v1:%%%",
+      "source": "backlog"
+    },
+    {
+      "id": "invalid-utf8-call",
+      "title": "Invalid UTF-8 marker",
+      "blocked_by": null,
+      "blocked_by_ids": [],
+      "unresolved_blocker_ids": [],
+      "reason": "fm-hold-v1:/w==",
+      "source": "backlog"
+    }
+  ],
+  "queued": [
+    {
+      "id": "encoded-call",
+      "title": "Choose route",
+      "blocked_by": null,
+      "blocked_by_ids": [],
+      "unresolved_blocker_ids": [],
+      "blocked_reason": null,
+      "hold_reason": "Choose (blue), \"green\" — café second line",
+      "hold_kind": "captain",
+      "hold_until": null,
+      "hold_bucket": "live",
+      "hold_age_days": 1,
+      "captain_actionable": true,
+      "repo": "alpha",
+      "kind": "captain",
+      "since": "2026-07-24"
+    },
+    {
+      "id": "plain-call",
+      "title": "Plain route",
+      "blocked_by": null,
+      "blocked_by_ids": [],
+      "unresolved_blocker_ids": [],
+      "blocked_reason": null,
+      "hold_reason": "literal reason",
+      "hold_kind": "captain",
+      "hold_until": null,
+      "hold_bucket": "live",
+      "hold_age_days": 1,
+      "captain_actionable": true,
+      "repo": "alpha",
+      "kind": "captain",
+      "since": "2026-07-24"
+    },
+    {
+      "id": "malformed-call",
+      "title": "Malformed marker",
+      "blocked_by": null,
+      "blocked_by_ids": [],
+      "unresolved_blocker_ids": [],
+      "blocked_reason": null,
+      "hold_reason": "fm-hold-v1:%%%",
+      "hold_kind": "captain",
+      "hold_until": null,
+      "hold_bucket": "live",
+      "hold_age_days": 1,
+      "captain_actionable": true,
+      "repo": "alpha",
+      "kind": "captain",
+      "since": "2026-07-24"
+    },
+    {
+      "id": "invalid-utf8-call",
+      "title": "Invalid UTF-8 marker",
+      "blocked_by": null,
+      "blocked_by_ids": [],
+      "unresolved_blocker_ids": [],
+      "blocked_reason": null,
+      "hold_reason": "fm-hold-v1:/w==",
+      "hold_kind": "captain",
+      "hold_until": null,
+      "hold_bucket": "live",
+      "hold_age_days": 1,
+      "captain_actionable": true,
+      "repo": "alpha",
+      "kind": "captain",
+      "since": "2026-07-24"
+    }
+  ],
+  "landed": [
+    {
+      "id": "shipped",
+      "title": "Shipped",
+      "kind": "ship",
+      "hold_kind": null,
+      "pr_url": "https://github.com/kunchenguid/firstmate/pull/9",
+      "report_path": null,
+      "local_note": null,
+      "completion": {
+        "date": "2026-07-06",
+        "verb": "merged"
+      }
+    }
+  ],
+  "endpoints": [],
+  "counts": {
+    "active_children": 0,
+    "decisions_open": 4,
+    "holds": 4,
+    "queued": 4,
+    "landed": 1,
+    "endpoints": 0
+  },
+  "omitted": []
+}
