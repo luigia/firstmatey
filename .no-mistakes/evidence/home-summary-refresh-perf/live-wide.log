@@ -1,0 +1,6 @@
+{"label": "wide-create", "command": ["bin/fm-lab-home.sh", "create", "/Users/luigi/.no-mistakes/worktrees/3fecfed7f577/01M407Y2945QQQ91DSKZSSDFMJ/.refresh-wide-pu_sdbvw/home"], "exit": 0, "seconds": 0.074}
+{"label": "wide-drain", "command": ["bin/fm-wake-drain.sh"], "exit": 0, "seconds": 52.533}
+{"label": "wide-refresh", "command": ["bin/fm-home-summary-refresh.sh"], "exit": 0, "seconds": 1.235}
+{"label": "wide-base-refresh", "command": ["/Users/luigi/.no-mistakes/worktrees/3fecfed7f577/01M407Y2945QQQ91DSKZSSDFMJ/.refresh-wide-pu_sdbvw/baseline/fm-home-summary-refresh.sh"], "exit": 0, "seconds": 4.05}
+{"label": "invalid-cursor-refresh", "command": ["bin/fm-home-summary-refresh.sh"], "exit": 0, "seconds": 1.105}
+{"label": "missing-cursor-refresh", "command": ["bin/fm-home-summary-refresh.sh"], "exit": 0, "seconds": 0.868}

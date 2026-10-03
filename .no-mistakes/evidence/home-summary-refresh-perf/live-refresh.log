@@ -1,0 +1,10 @@
+{"command": ["bin/fm-lab-home.sh", "create", "/Users/luigi/.no-mistakes/worktrees/3fecfed7f577/01M407Y2945QQQ91DSKZSSDFMJ/.refresh-live-aofnzmrb/home"], "label": "create-lab", "exit": 0, "wall_seconds": 0.047}
+{"command": ["bin/fm-wake-drain.sh"], "label": "drain-5000", "exit": 0, "wall_seconds": 24.35}
+{"command": ["bin/fm-home-summary-refresh.sh"], "label": "refresh-5000", "exit": 0, "wall_seconds": 0.981}
+{"command": ["/Users/luigi/.no-mistakes/worktrees/3fecfed7f577/01M407Y2945QQQ91DSKZSSDFMJ/.refresh-live-aofnzmrb/baseline/fm-fleet-snapshot.sh", "--secondmate-home-summary"], "label": "baseline-5000", "exit": 0, "wall_seconds": 1.352}
+{"command": ["bin/fm-wake-drain.sh"], "label": "drain-15000", "exit": 0, "wall_seconds": 64.864}
+{"command": ["bin/fm-home-summary-refresh.sh"], "label": "refresh-15000", "exit": 0, "wall_seconds": 0.79}
+{"command": ["/Users/luigi/.no-mistakes/worktrees/3fecfed7f577/01M407Y2945QQQ91DSKZSSDFMJ/.refresh-live-aofnzmrb/baseline/fm-fleet-snapshot.sh", "--secondmate-home-summary"], "label": "baseline-15000", "exit": 0, "wall_seconds": 2.367}
+{"command": ["bin/fm-home-summary-refresh.sh"], "label": "refresh-replaced", "exit": 0, "wall_seconds": 2.424}
+{"command": ["bin/fm-wake-drain.sh"], "label": "drain-fleet40", "exit": 0, "wall_seconds": 25.217}
+{"command": ["bin/fm-home-summary-refresh.sh"], "label": "refresh-fleet40", "exit": 0, "wall_seconds": 8.729}

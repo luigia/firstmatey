@@ -1,0 +1,18 @@
+{"command": ["bin/fm-lab-home.sh", "create", "/Users/luigi/.no-mistakes/worktrees/3fecfed7f577/01M407Y2945QQQ91DSKZSSDFMJ/.refresh-live-x8jjbdt1/home"], "label": "create-lab", "exit": 0, "wall_seconds": 0.394}
+{"command": ["bin/fm-wake-drain.sh"], "label": "drain-5000", "exit": 0, "wall_seconds": 32.469}
+{"command": ["bin/fm-home-summary-refresh.sh"], "label": "refresh-5000", "exit": 0, "wall_seconds": 2.655}
+{"command": ["/Users/luigi/.no-mistakes/worktrees/3fecfed7f577/01M407Y2945QQQ91DSKZSSDFMJ/.refresh-live-x8jjbdt1/baseline/fm-fleet-snapshot.sh", "--secondmate-home-summary"], "label": "baseline-5000", "exit": 0, "wall_seconds": 3.932}
+Traceback (most recent call last):
+  File "/Users/luigi/.no-mistakes/evidence/01M407Y2945QQQ91DSKZSSDFMJ/live-refresh.py", line 54, in <module>
+    run('drain-50000',['bin/fm-wake-drain.sh'],env,240)
+  File "/Users/luigi/.no-mistakes/evidence/01M407Y2945QQQ91DSKZSSDFMJ/live-refresh.py", line 9, in run
+    p=subprocess.run(command,env=env,capture_output=True,timeout=timeout)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/subprocess.py", line 507, in run
+    stdout, stderr = process.communicate(input, timeout=timeout)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/subprocess.py", line 1134, in communicate
+    stdout, stderr = self._communicate(input, endtime, timeout)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/subprocess.py", line 1980, in _communicate
+    self._check_timeout(endtime, orig_timeout, stdout, stderr)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/subprocess.py", line 1178, in _check_timeout
+    raise TimeoutExpired(
+subprocess.TimeoutExpired: Command '['bin/fm-wake-drain.sh']' timed out after 240 seconds

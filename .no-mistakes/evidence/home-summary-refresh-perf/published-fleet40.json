@@ -1,0 +1,520 @@
+{
+  "schema": "fm-secondmate-home-summary.v1",
+  "hold_classifier_schema": "fm-captain-hold-buckets.v1",
+  "contributions": {
+    "known": 0,
+    "checked": 0,
+    "counts": {
+      "captain": 0,
+      "fleet": 0,
+      "maintainer": 0,
+      "nobody": 0
+    },
+    "unmeasured": 0,
+    "complete": true,
+    "proven_clear": true,
+    "stale_verdicts": 0,
+    "missing_verdicts": 0,
+    "unreadable_records": 0,
+    "valid_until": 900,
+    "captain": [],
+    "captain_omitted": 0
+  },
+  "generated": "2026-10-04T12:00:00Z",
+  "generated_epoch": 1791115200,
+  "home": "/Users/luigi/.no-mistakes/worktrees/3fecfed7f577/01M407Y2945QQQ91DSKZSSDFMJ/.refresh-live-aofnzmrb/home",
+  "valid": false,
+  "reason": "child current state unavailable: mate-01, mate-02, mate-03, mate-04, mate-05, mate-06, mate-07, mate-08, mate-09, mate-10, mate-11, mate-12, mate-13, mate-14, mate-15, mate-16, mate-17, mate-18, mate-19, mate-20, mate-21, mate-22, mate-23, mate-24, mate-25, mate-26, mate-27, mate-28, mate-29, mate-30, mate-31, mate-32, mate-33, mate-34, mate-35, mate-36, mate-37, mate-38, mate-39, mate-40",
+  "invalidity": {
+    "kind": "child_current_unavailable",
+    "ids": [
+      "mate-01",
+      "mate-02",
+      "mate-03",
+      "mate-04",
+      "mate-05",
+      "mate-06",
+      "mate-07",
+      "mate-08",
+      "mate-09",
+      "mate-10",
+      "mate-11",
+      "mate-12",
+      "mate-13",
+      "mate-14",
+      "mate-15",
+      "mate-16",
+      "mate-17",
+      "mate-18",
+      "mate-19",
+      "mate-20",
+      "mate-21",
+      "mate-22",
+      "mate-23",
+      "mate-24",
+      "mate-25",
+      "mate-26",
+      "mate-27",
+      "mate-28",
+      "mate-29",
+      "mate-30",
+      "mate-31",
+      "mate-32",
+      "mate-33",
+      "mate-34",
+      "mate-35",
+      "mate-36",
+      "mate-37",
+      "mate-38",
+      "mate-39",
+      "mate-40"
+    ]
+  },
+  "state": "unknown",
+  "active_children": [],
+  "decisions_open": [
+    {
+      "id": "mate-01",
+      "key": "fleet-01",
+      "verb": "needs-decision",
+      "summary": "choose rollout",
+      "reason": null,
+      "source": "status"
+    },
+    {
+      "id": "mate-02",
+      "key": "fleet-02",
+      "verb": "needs-decision",
+      "summary": "choose rollout",
+      "reason": null,
+      "source": "status"
+    },
+    {
+      "id": "mate-03",
+      "key": "fleet-03",
+      "verb": "needs-decision",
+      "summary": "choose rollout",
+      "reason": null,
+      "source": "status"
+    },
+    {
+      "id": "mate-04",
+      "key": "fleet-04",
+      "verb": "needs-decision",
+      "summary": "choose rollout",
+      "reason": null,
+      "source": "status"
+    },
+    {
+      "id": "mate-05",
+      "key": "fleet-05",
+      "verb": "needs-decision",
+      "summary": "choose rollout",
+      "reason": null,
+      "source": "status"
+    },
+    {
+      "id": "mate-06",
+      "key": "fleet-06",
+      "verb": "needs-decision",
+      "summary": "choose rollout",
+      "reason": null,
+      "source": "status"
+    },
+    {
+      "id": "mate-07",
+      "key": "fleet-07",
+      "verb": "needs-decision",
+      "summary": "choose rollout",
+      "reason": null,
+      "source": "status"
+    },
+    {
+      "id": "mate-08",
+      "key": "fleet-08",
+      "verb": "needs-decision",
+      "summary": "choose rollout",
+      "reason": null,
+      "source": "status"
+    },
+    {
+      "id": "mate-09",
+      "key": "fleet-09",
+      "verb": "needs-decision",
+      "summary": "choose rollout",
+      "reason": null,
+      "source": "status"
+    },
+    {
+      "id": "mate-10",
+      "key": "fleet-10",
+      "verb": "needs-decision",
+      "summary": "choose rollout",
+      "reason": null,
+      "source": "status"
+    },
+    {
+      "id": "mate-11",
+      "key": "fleet-11",
+      "verb": "needs-decision",
+      "summary": "choose rollout",
+      "reason": null,
+      "source": "status"
+    },
+    {
+      "id": "mate-12",
+      "key": "fleet-12",
+      "verb": "needs-decision",
+      "summary": "choose rollout",
+      "reason": null,
+      "source": "status"
+    },
+    {
+      "id": "mate-13",
+      "key": "fleet-13",
+      "verb": "needs-decision",
+      "summary": "choose rollout",
+      "reason": null,
+      "source": "status"
+    },
+    {
+      "id": "mate-14",
+      "key": "fleet-14",
+      "verb": "needs-decision",
+      "summary": "choose rollout",
+      "reason": null,
+      "source": "status"
+    },
+    {
+      "id": "mate-15",
+      "key": "fleet-15",
+      "verb": "needs-decision",
+      "summary": "choose rollout",
+      "reason": null,
+      "source": "status"
+    },
+    {
+      "id": "mate-16",
+      "key": "fleet-16",
+      "verb": "needs-decision",
+      "summary": "choose rollout",
+      "reason": null,
+      "source": "status"
+    },
+    {
+      "id": "mate-17",
+      "key": "fleet-17",
+      "verb": "needs-decision",
+      "summary": "choose rollout",
+      "reason": null,
+      "source": "status"
+    },
+    {
+      "id": "mate-18",
+      "key": "fleet-18",
+      "verb": "needs-decision",
+      "summary": "choose rollout",
+      "reason": null,
+      "source": "status"
+    },
+    {
+      "id": "mate-19",
+      "key": "fleet-19",
+      "verb": "needs-decision",
+      "summary": "choose rollout",
+      "reason": null,
+      "source": "status"
+    },
+    {
+      "id": "mate-20",
+      "key": "fleet-20",
+      "verb": "needs-decision",
+      "summary": "choose rollout",
+      "reason": null,
+      "source": "status"
+    }
+  ],
+  "holds": [],
+  "queued": [],
+  "landed": [],
+  "endpoints": [
+    {
+      "id": "mate-01",
+      "state": "unknown",
+      "source": "none",
+      "endpoint": {
+        "target": null,
+        "exists": null,
+        "agent_alive": "not_checked",
+        "status": "unknown",
+        "observed_at": "2026-10-04T12:00:00Z",
+        "freshness": "fresh"
+      }
+    },
+    {
+      "id": "mate-02",
+      "state": "unknown",
+      "source": "none",
+      "endpoint": {
+        "target": null,
+        "exists": null,
+        "agent_alive": "not_checked",
+        "status": "unknown",
+        "observed_at": "2026-10-04T12:00:00Z",
+        "freshness": "fresh"
+      }
+    },
+    {
+      "id": "mate-03",
+      "state": "unknown",
+      "source": "none",
+      "endpoint": {
+        "target": null,
+        "exists": null,
+        "agent_alive": "not_checked",
+        "status": "unknown",
+        "observed_at": "2026-10-04T12:00:00Z",
+        "freshness": "fresh"
+      }
+    },
+    {
+      "id": "mate-04",
+      "state": "unknown",
+      "source": "none",
+      "endpoint": {
+        "target": null,
+        "exists": null,
+        "agent_alive": "not_checked",
+        "status": "unknown",
+        "observed_at": "2026-10-04T12:00:00Z",
+        "freshness": "fresh"
+      }
+    },
+    {
+      "id": "mate-05",
+      "state": "unknown",
+      "source": "none",
+      "endpoint": {
+        "target": null,
+        "exists": null,
+        "agent_alive": "not_checked",
+        "status": "unknown",
+        "observed_at": "2026-10-04T12:00:00Z",
+        "freshness": "fresh"
+      }
+    },
+    {
+      "id": "mate-06",
+      "state": "unknown",
+      "source": "none",
+      "endpoint": {
+        "target": null,
+        "exists": null,
+        "agent_alive": "not_checked",
+        "status": "unknown",
+        "observed_at": "2026-10-04T12:00:00Z",
+        "freshness": "fresh"
+      }
+    },
+    {
+      "id": "mate-07",
+      "state": "unknown",
+      "source": "none",
+      "endpoint": {
+        "target": null,
+        "exists": null,
+        "agent_alive": "not_checked",
+        "status": "unknown",
+        "observed_at": "2026-10-04T12:00:00Z",
+        "freshness": "fresh"
+      }
+    },
+    {
+      "id": "mate-08",
+      "state": "unknown",
+      "source": "none",
+      "endpoint": {
+        "target": null,
+        "exists": null,
+        "agent_alive": "not_checked",
+        "status": "unknown",
+        "observed_at": "2026-10-04T12:00:00Z",
+        "freshness": "fresh"
+      }
+    },
+    {
+      "id": "mate-09",
+      "state": "unknown",
+      "source": "none",
+      "endpoint": {
+        "target": null,
+        "exists": null,
+        "agent_alive": "not_checked",
+        "status": "unknown",
+        "observed_at": "2026-10-04T12:00:00Z",
+        "freshness": "fresh"
+      }
+    },
+    {
+      "id": "mate-10",
+      "state": "unknown",
+      "source": "none",
+      "endpoint": {
+        "target": null,
+        "exists": null,
+        "agent_alive": "not_checked",
+        "status": "unknown",
+        "observed_at": "2026-10-04T12:00:00Z",
+        "freshness": "fresh"
+      }
+    },
+    {
+      "id": "mate-11",
+      "state": "unknown",
+      "source": "none",
+      "endpoint": {
+        "target": null,
+        "exists": null,
+        "agent_alive": "not_checked",
+        "status": "unknown",
+        "observed_at": "2026-10-04T12:00:00Z",
+        "freshness": "fresh"
+      }
+    },
+    {
+      "id": "mate-12",
+      "state": "unknown",
+      "source": "none",
+      "endpoint": {
+        "target": null,
+        "exists": null,
+        "agent_alive": "not_checked",
+        "status": "unknown",
+        "observed_at": "2026-10-04T12:00:00Z",
+        "freshness": "fresh"
+      }
+    },
+    {
+      "id": "mate-13",
+      "state": "unknown",
+      "source": "none",
+      "endpoint": {
+        "target": null,
+        "exists": null,
+        "agent_alive": "not_checked",
+        "status": "unknown",
+        "observed_at": "2026-10-04T12:00:00Z",
+        "freshness": "fresh"
+      }
+    },
+    {
+      "id": "mate-14",
+      "state": "unknown",
+      "source": "none",
+      "endpoint": {
+        "target": null,
+        "exists": null,
+        "agent_alive": "not_checked",
+        "status": "unknown",
+        "observed_at": "2026-10-04T12:00:00Z",
+        "freshness": "fresh"
+      }
+    },
+    {
+      "id": "mate-15",
+      "state": "unknown",
+      "source": "none",
+      "endpoint": {
+        "target": null,
+        "exists": null,
+        "agent_alive": "not_checked",
+        "status": "unknown",
+        "observed_at": "2026-10-04T12:00:00Z",
+        "freshness": "fresh"
+      }
+    },
+    {
+      "id": "mate-16",
+      "state": "unknown",
+      "source": "none",
+      "endpoint": {
+        "target": null,
+        "exists": null,
+        "agent_alive": "not_checked",
+        "status": "unknown",
+        "observed_at": "2026-10-04T12:00:00Z",
+        "freshness": "fresh"
+      }
+    },
+    {
+      "id": "mate-17",
+      "state": "unknown",
+      "source": "none",
+      "endpoint": {
+        "target": null,
+        "exists": null,
+        "agent_alive": "not_checked",
+        "status": "unknown",
+        "observed_at": "2026-10-04T12:00:00Z",
+        "freshness": "fresh"
+      }
+    },
+    {
+      "id": "mate-18",
+      "state": "unknown",
+      "source": "none",
+      "endpoint": {
+        "target": null,
+        "exists": null,
+        "agent_alive": "not_checked",
+        "status": "unknown",
+        "observed_at": "2026-10-04T12:00:00Z",
+        "freshness": "fresh"
+      }
+    },
+    {
+      "id": "mate-19",
+      "state": "unknown",
+      "source": "none",
+      "endpoint": {
+        "target": null,
+        "exists": null,
+        "agent_alive": "not_checked",
+        "status": "unknown",
+        "observed_at": "2026-10-04T12:00:00Z",
+        "freshness": "fresh"
+      }
+    },
+    {
+      "id": "mate-20",
+      "state": "unknown",
+      "source": "none",
+      "endpoint": {
+        "target": null,
+        "exists": null,
+        "agent_alive": "not_checked",
+        "status": "unknown",
+        "observed_at": "2026-10-04T12:00:00Z",
+        "freshness": "fresh"
+      }
+    }
+  ],
+  "counts": {
+    "active_children": 0,
+    "decisions_open": 40,
+    "holds": 0,
+    "queued": 0,
+    "landed": 0,
+    "endpoints": 40
+  },
+  "omitted": [
+    {
+      "surface": "decisions_open",
+      "count": 20
+    },
+    {
+      "surface": "endpoints",
+      "count": 20
+    }
+  ]
+}
