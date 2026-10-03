@@ -1,0 +1,8 @@
+OPEN DECISIONS (still open, folded from the durable status logs - not just the latest line):
+mate-0 [key=config-0] needs-decision: choose configuration
+mate-1 [key=config-1] needs-decision: choose configuration
+mate-2 [key=config-2] needs-decision: choose configuration
+mate-3 [key=config-3] needs-decision: choose configuration
+mate-4 [key=config-4] needs-decision: choose configuration
+mate-5 [key=config-5] needs-decision: choose configuration
+OPEN DECISIONS: close one by answering it: bin/fm-send.sh <task> --resolve-key <key> '<answer>'

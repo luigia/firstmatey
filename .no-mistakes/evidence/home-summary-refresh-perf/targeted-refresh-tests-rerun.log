@@ -1,0 +1,36 @@
+ok - watcher-carried status append publishes the real home summary
+●━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+●  WATCHER DOWN - SUPERVISION IS OFF
+●  1 task(s) in flight, but no watcher has a fresh beacon (last beat: never, grace 300s).
+●  Trust the emitted supervision protocol for this harness; do not use shell & for watcher repair.
+●  This is a supervision warning only; the guarded operation WILL still run.
+●  repair a missing or failed watcher cycle with the Pi tool fm_watch_arm_pi, or restart Pi with -e /Users/luigi/.no-mistakes/worktrees/3fecfed7f577/01M40XNNXBW3XW8EWKNWVK61ST/.pi/extensions/fm-primary-turnend-guard.ts -e /Users/luigi/.no-mistakes/worktrees/3fecfed7f577/01M40XNNXBW3XW8EWKNWVK61ST/.pi/extensions/fm-primary-pi-watch.ts if the extensions are not loaded.
+●━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+WARNING: watcher still down (same stale episode; last beat: never, grace 300s) - full banner already printed this episode.
+ok - home summary folds only status appended since the drain cursor
+ok - cursor readers and writer honor effective verb configuration
+ok - failed cursor capture falls back without blocking publication
+ok - large backlog snapshots and home-summary publication stay within exec limits
+ok - fleet snapshot transport does not require or mutate operational state
+ok - parent snapshot consumes large child ledgers without argument transport
+ok - live watcher cadence bounds publication staleness without signals
+ok - fleet snapshot consumes the published local ledger by default
+ok - writer kill and replacement preserve an atomic JSON ledger
+ok - best-effort publication logs and continues
+Terminated: 15
+Terminated: 15
+ok - best-effort refresh bounds publication lock acquisition
+Terminated: 15
+ok - best-effort refresh bounds validation and publication
+ok - best-effort refresh bounds state initialization
+ok - best-effort refresh logs worker termination
+ok - best-effort refresh bounds failure reporting fallback
+ok - valid publication ignores an unavailable failure record
+ok - publication completes on a home carrying accumulated status history
+ok - producer skips remote per-task state probes
+ok - a stalled publication does not delay the watcher liveness beacon
+ok - publication remains single-flight across watcher restart
+ok - bootstrap scopes retained failures to the current publication
+Terminated: 15
+ok - failure records preserve refresh attempt ordering
+ok - repeated publication failure is reported at session start until it clears

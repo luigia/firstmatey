@@ -1,0 +1,207 @@
+{
+  "schema": "fm-secondmate-home-summary.v1",
+  "hold_classifier_schema": "fm-captain-hold-buckets.v1",
+  "contributions": {
+    "known": 0,
+    "checked": 0,
+    "counts": {
+      "captain": 0,
+      "fleet": 0,
+      "maintainer": 0,
+      "nobody": 0
+    },
+    "unmeasured": 0,
+    "complete": true,
+    "proven_clear": true,
+    "stale_verdicts": 0,
+    "missing_verdicts": 0,
+    "unreadable_records": 0,
+    "valid_until": 900,
+    "captain": [],
+    "captain_omitted": 0
+  },
+  "generated": "2026-10-02T12:00:00Z",
+  "generated_epoch": 1790942400,
+  "home": "/Users/luigi/.no-mistakes/worktrees/3fecfed7f577/01M40XNNXBW3XW8EWKNWVK61ST/.test-tmp/live-home",
+  "valid": false,
+  "reason": "child current state unavailable: mate-0, mate-1, mate-2, mate-3, mate-4, mate-5",
+  "invalidity": {
+    "kind": "child_current_unavailable",
+    "ids": [
+      "mate-0",
+      "mate-1",
+      "mate-2",
+      "mate-3",
+      "mate-4",
+      "mate-5"
+    ]
+  },
+  "state": "unknown",
+  "active_children": [],
+  "decisions_open": [
+    {
+      "id": "mate-0",
+      "key": "config-0",
+      "verb": "needs-decision",
+      "summary": "choose configuration",
+      "reason": null,
+      "source": "status"
+    },
+    {
+      "id": "mate-0",
+      "key": "secret-choice",
+      "verb": "needs-decision",
+      "summary": "choose transport",
+      "reason": null,
+      "source": "status"
+    },
+    {
+      "id": "mate-0",
+      "key": "resolved-choice",
+      "verb": "needs-decision",
+      "summary": "choose",
+      "reason": null,
+      "source": "status"
+    },
+    {
+      "id": "mate-0",
+      "key": "held-choice",
+      "verb": "needs-decision",
+      "summary": "choose",
+      "reason": null,
+      "source": "status"
+    },
+    {
+      "id": "mate-1",
+      "key": "config-1",
+      "verb": "needs-decision",
+      "summary": "choose configuration",
+      "reason": null,
+      "source": "status"
+    },
+    {
+      "id": "mate-2",
+      "key": "config-2",
+      "verb": "needs-decision",
+      "summary": "choose configuration",
+      "reason": null,
+      "source": "status"
+    },
+    {
+      "id": "mate-3",
+      "key": "config-3",
+      "verb": "needs-decision",
+      "summary": "choose configuration",
+      "reason": null,
+      "source": "status"
+    },
+    {
+      "id": "mate-4",
+      "key": "config-4",
+      "verb": "needs-decision",
+      "summary": "choose configuration",
+      "reason": null,
+      "source": "status"
+    },
+    {
+      "id": "mate-5",
+      "key": "config-5",
+      "verb": "needs-decision",
+      "summary": "choose configuration",
+      "reason": null,
+      "source": "status"
+    }
+  ],
+  "holds": [],
+  "queued": [],
+  "landed": [],
+  "endpoints": [
+    {
+      "id": "mate-0",
+      "state": "unknown",
+      "source": "none",
+      "endpoint": {
+        "target": "fm-lab-summary:missing-0",
+        "exists": false,
+        "agent_alive": "unknown",
+        "status": "absent",
+        "observed_at": "2026-10-02T12:00:00Z",
+        "freshness": "fresh"
+      }
+    },
+    {
+      "id": "mate-1",
+      "state": "unknown",
+      "source": "none",
+      "endpoint": {
+        "target": "fm-lab-summary:missing-1",
+        "exists": false,
+        "agent_alive": "unknown",
+        "status": "absent",
+        "observed_at": "2026-10-02T12:00:00Z",
+        "freshness": "fresh"
+      }
+    },
+    {
+      "id": "mate-2",
+      "state": "unknown",
+      "source": "none",
+      "endpoint": {
+        "target": "fm-lab-summary:missing-2",
+        "exists": false,
+        "agent_alive": "unknown",
+        "status": "absent",
+        "observed_at": "2026-10-02T12:00:00Z",
+        "freshness": "fresh"
+      }
+    },
+    {
+      "id": "mate-3",
+      "state": "unknown",
+      "source": "none",
+      "endpoint": {
+        "target": "fm-lab-summary:missing-3",
+        "exists": false,
+        "agent_alive": "unknown",
+        "status": "absent",
+        "observed_at": "2026-10-02T12:00:00Z",
+        "freshness": "fresh"
+      }
+    },
+    {
+      "id": "mate-4",
+      "state": "unknown",
+      "source": "none",
+      "endpoint": {
+        "target": "fm-lab-summary:missing-4",
+        "exists": false,
+        "agent_alive": "unknown",
+        "status": "absent",
+        "observed_at": "2026-10-02T12:00:00Z",
+        "freshness": "fresh"
+      }
+    },
+    {
+      "id": "mate-5",
+      "state": "unknown",
+      "source": "none",
+      "endpoint": {
+        "target": "fm-lab-summary:missing-5",
+        "exists": false,
+        "agent_alive": "unknown",
+        "status": "absent",
+        "observed_at": "2026-10-02T12:00:00Z",
+        "freshness": "fresh"
+      }
+    }
+  ],
+  "counts": {
+    "active_children": 0,
+    "decisions_open": 9,
+    "holds": 0,
+    "queued": 0,
+    "landed": 0,
+    "endpoints": 6
+  },
+  "omitted": []
+}

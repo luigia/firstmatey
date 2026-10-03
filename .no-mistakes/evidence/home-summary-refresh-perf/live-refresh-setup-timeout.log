@@ -1,0 +1,14 @@
+Traceback (most recent call last):
+  File "/Users/luigi/.no-mistakes/evidence/01M40XNNXBW3XW8EWKNWVK61ST/live-refresh.py", line 52, in <module>
+    run('fm-wake-drain.sh',artifact='live-drain-large.txt',timeout=300)
+  File "/Users/luigi/.no-mistakes/evidence/01M40XNNXBW3XW8EWKNWVK61ST/live-refresh.py", line 16, in run
+    proc=subprocess.run([str(root/'bin'/script), *args], env=env | (extra or {}), capture_output=True, timeout=timeout)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/subprocess.py", line 507, in run
+    stdout, stderr = process.communicate(input, timeout=timeout)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/subprocess.py", line 1134, in communicate
+    stdout, stderr = self._communicate(input, endtime, timeout)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/subprocess.py", line 1980, in _communicate
+    self._check_timeout(endtime, orig_timeout, stdout, stderr)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/subprocess.py", line 1178, in _check_timeout
+    raise TimeoutExpired(
+subprocess.TimeoutExpired: Command '['/Users/luigi/.no-mistakes/worktrees/3fecfed7f577/01M40XNNXBW3XW8EWKNWVK61ST/bin/fm-wake-drain.sh']' timed out after 300 seconds

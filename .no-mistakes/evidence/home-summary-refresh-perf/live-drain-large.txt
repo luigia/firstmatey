@@ -1,0 +1,14 @@
+OPEN DECISIONS (still open, folded from the durable status logs - not just the latest line):
+mate-0 [key=choice-0] needs-decision: choose rollout
+mate-0 [key=tail-0] needs-decision: choose window
+mate-1 [key=choice-1] needs-decision: choose rollout
+mate-1 [key=tail-1] needs-decision: choose window
+mate-2 [key=choice-2] needs-decision: choose rollout
+mate-2 [key=tail-2] needs-decision: choose window
+mate-3 [key=choice-3] needs-decision: choose rollout
+mate-3 [key=tail-3] needs-decision: choose window
+mate-4 [key=choice-4] needs-decision: choose rollout
+mate-4 [key=tail-4] needs-decision: choose window
+mate-5 [key=choice-5] needs-decision: choose rollout
+mate-5 [key=tail-5] needs-decision: choose window
+OPEN DECISIONS: close one by answering it: bin/fm-send.sh <task> --resolve-key <key> '<answer>'

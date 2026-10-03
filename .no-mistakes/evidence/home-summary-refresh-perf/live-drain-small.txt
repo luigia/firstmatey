@@ -1,0 +1,14 @@
+OPEN DECISIONS (still open, folded from the durable status logs - not just the latest line):
+mate-0 [key=choice-0] needs-decision: choose rollout
+mate-0 [key=old-0] blocked: credentials
+mate-1 [key=choice-1] needs-decision: choose rollout
+mate-1 [key=old-1] blocked: credentials
+mate-2 [key=choice-2] needs-decision: choose rollout
+mate-2 [key=old-2] blocked: credentials
+mate-3 [key=choice-3] needs-decision: choose rollout
+mate-3 [key=old-3] blocked: credentials
+mate-4 [key=choice-4] needs-decision: choose rollout
+mate-4 [key=old-4] blocked: credentials
+mate-5 [key=choice-5] needs-decision: choose rollout
+mate-5 [key=old-5] blocked: credentials
+OPEN DECISIONS: close one by answering it: bin/fm-send.sh <task> --resolve-key <key> '<answer>'

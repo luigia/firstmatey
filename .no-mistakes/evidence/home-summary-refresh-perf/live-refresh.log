@@ -1,10 +1,229 @@
-{"command": ["bin/fm-lab-home.sh", "create", "/Users/luigi/.no-mistakes/worktrees/3fecfed7f577/01M407Y2945QQQ91DSKZSSDFMJ/.refresh-live-aofnzmrb/home"], "label": "create-lab", "exit": 0, "wall_seconds": 0.047}
-{"command": ["bin/fm-wake-drain.sh"], "label": "drain-5000", "exit": 0, "wall_seconds": 24.35}
-{"command": ["bin/fm-home-summary-refresh.sh"], "label": "refresh-5000", "exit": 0, "wall_seconds": 0.981}
-{"command": ["/Users/luigi/.no-mistakes/worktrees/3fecfed7f577/01M407Y2945QQQ91DSKZSSDFMJ/.refresh-live-aofnzmrb/baseline/fm-fleet-snapshot.sh", "--secondmate-home-summary"], "label": "baseline-5000", "exit": 0, "wall_seconds": 1.352}
-{"command": ["bin/fm-wake-drain.sh"], "label": "drain-15000", "exit": 0, "wall_seconds": 64.864}
-{"command": ["bin/fm-home-summary-refresh.sh"], "label": "refresh-15000", "exit": 0, "wall_seconds": 0.79}
-{"command": ["/Users/luigi/.no-mistakes/worktrees/3fecfed7f577/01M407Y2945QQQ91DSKZSSDFMJ/.refresh-live-aofnzmrb/baseline/fm-fleet-snapshot.sh", "--secondmate-home-summary"], "label": "baseline-15000", "exit": 0, "wall_seconds": 2.367}
-{"command": ["bin/fm-home-summary-refresh.sh"], "label": "refresh-replaced", "exit": 0, "wall_seconds": 2.424}
-{"command": ["bin/fm-wake-drain.sh"], "label": "drain-fleet40", "exit": 0, "wall_seconds": 25.217}
-{"command": ["bin/fm-home-summary-refresh.sh"], "label": "refresh-fleet40", "exit": 0, "wall_seconds": 8.729}
+[
+  {
+    "scenario": "live-small-seeded",
+    "seconds": 3.305,
+    "decision_keys": [
+      "choice-0",
+      "tail-0",
+      "choice-1",
+      "tail-1",
+      "choice-2",
+      "tail-2",
+      "choice-3",
+      "tail-3",
+      "choice-4",
+      "tail-4",
+      "choice-5",
+      "tail-5"
+    ],
+    "cursors_unchanged": true
+  },
+  {
+    "scenario": "live-small-whole",
+    "seconds": 1.83,
+    "decision_keys": [
+      "choice-0",
+      "tail-0",
+      "choice-1",
+      "tail-1",
+      "choice-2",
+      "tail-2",
+      "choice-3",
+      "tail-3",
+      "choice-4",
+      "tail-4",
+      "choice-5",
+      "tail-5"
+    ],
+    "cursors_unchanged": true
+  },
+  {
+    "scenario": "live-large-seeded",
+    "seconds": 2.193,
+    "decision_keys": [
+      "choice-0",
+      "tail-0",
+      "new-0",
+      "choice-1",
+      "tail-1",
+      "new-1",
+      "choice-2",
+      "tail-2",
+      "new-2",
+      "choice-3",
+      "tail-3",
+      "new-3",
+      "choice-4",
+      "tail-4",
+      "new-4",
+      "choice-5",
+      "tail-5",
+      "new-5"
+    ],
+    "cursors_unchanged": true
+  },
+  {
+    "scenario": "live-large-whole",
+    "seconds": 2.691,
+    "decision_keys": [
+      "choice-0",
+      "tail-0",
+      "new-0",
+      "choice-1",
+      "tail-1",
+      "new-1",
+      "choice-2",
+      "tail-2",
+      "new-2",
+      "choice-3",
+      "tail-3",
+      "new-3",
+      "choice-4",
+      "tail-4",
+      "new-4",
+      "choice-5",
+      "tail-5",
+      "new-5"
+    ],
+    "cursors_unchanged": true
+  },
+  {
+    "scenario": "live-corrupt-cursor",
+    "seconds": 2.904,
+    "decision_keys": [
+      "choice-0",
+      "tail-0",
+      "new-0",
+      "choice-1",
+      "tail-1",
+      "new-1",
+      "choice-2",
+      "tail-2",
+      "new-2",
+      "choice-3",
+      "tail-3",
+      "new-3",
+      "choice-4",
+      "tail-4",
+      "new-4",
+      "choice-5",
+      "tail-5",
+      "new-5"
+    ],
+    "cursors_unchanged": true
+  },
+  {
+    "scenario": "live-directory-cursor",
+    "seconds": 2.834,
+    "decision_keys": [
+      "choice-0",
+      "tail-0",
+      "new-0",
+      "choice-1",
+      "tail-1",
+      "new-1",
+      "choice-2",
+      "tail-2",
+      "new-2",
+      "choice-3",
+      "tail-3",
+      "new-3",
+      "choice-4",
+      "tail-4",
+      "new-4",
+      "choice-5",
+      "tail-5",
+      "new-5"
+    ],
+    "cursors_unchanged": true
+  },
+  {
+    "scenario": "live-symlink-cursor",
+    "seconds": 2.369,
+    "decision_keys": [
+      "choice-0",
+      "tail-0",
+      "new-0",
+      "choice-1",
+      "tail-1",
+      "new-1",
+      "choice-2",
+      "tail-2",
+      "new-2",
+      "choice-3",
+      "tail-3",
+      "new-3",
+      "choice-4",
+      "tail-4",
+      "new-4",
+      "choice-5",
+      "tail-5",
+      "new-5"
+    ],
+    "cursors_unchanged": true
+  },
+  {
+    "scenario": "live-prefix-mismatch",
+    "seconds": 1.689,
+    "decision_keys": [
+      "config-0",
+      "secret-choice",
+      "config-1",
+      "config-2",
+      "config-3",
+      "config-4",
+      "config-5"
+    ],
+    "cursors_unchanged": true
+  },
+  {
+    "scenario": "live-custom-prefix",
+    "seconds": 2.701,
+    "decision_keys": [
+      "config-0",
+      "config-1",
+      "config-2",
+      "config-3",
+      "config-4",
+      "config-5"
+    ],
+    "cursors_unchanged": true
+  },
+  {
+    "scenario": "live-verb-mismatch",
+    "seconds": 1.462,
+    "decision_keys": [
+      "config-0",
+      "secret-choice",
+      "resolved-choice",
+      "held-choice",
+      "config-1",
+      "config-2",
+      "config-3",
+      "config-4",
+      "config-5"
+    ],
+    "cursors_unchanged": true
+  },
+  {
+    "scenario": "live-replaced-log",
+    "seconds": 1.505,
+    "decision_keys": [
+      "replacement-choice",
+      "config-1",
+      "config-2",
+      "config-3",
+      "config-4",
+      "config-5"
+    ],
+    "cursors_unchanged": true
+  },
+  {
+    "result": "All live publication assertions passed",
+    "tasks": 6,
+    "small_history_lines_per_task": 100,
+    "large_history_lines_per_task": 2000,
+    "deadline_seconds": 60,
+    "dependencies": "real product executables; no stubs or live fleet endpoints"
+  }
+]

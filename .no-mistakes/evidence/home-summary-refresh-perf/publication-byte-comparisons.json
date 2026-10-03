@@ -1,0 +1,7 @@
+{
+  "live-small-seeded == live-small-whole": true,
+  "live-large-seeded == live-large-whole": true,
+  "live-large-seeded == live-corrupt-cursor": true,
+  "live-large-seeded == live-directory-cursor": true,
+  "live-large-seeded == live-symlink-cursor": true
+}
