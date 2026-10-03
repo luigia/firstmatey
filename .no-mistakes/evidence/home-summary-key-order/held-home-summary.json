@@ -1,0 +1,139 @@
+{
+  "schema": "fm-secondmate-home-summary.v1",
+  "hold_classifier_schema": "fm-captain-hold-buckets.v1",
+  "contributions": {
+    "known": 1,
+    "checked": 0,
+    "counts": {
+      "captain": 0,
+      "fleet": 1,
+      "maintainer": 0,
+      "nobody": 0
+    },
+    "unmeasured": 0,
+    "complete": false,
+    "proven_clear": false,
+    "stale_verdicts": 0,
+    "missing_verdicts": 0,
+    "unreadable_records": 0,
+    "valid_until": 900,
+    "captain": [],
+    "captain_omitted": 0
+  },
+  "generated": "2026-07-25T00:00:00Z",
+  "generated_epoch": 1784937600,
+  "home": "/Users/luigi/.no-mistakes/worktrees/3fecfed7f577/01M40DW0SN0B03C3NZ8A1816YJ/.key-order-live-et573oh5/home",
+  "valid": true,
+  "reason": null,
+  "invalidity": {
+    "kind": null,
+    "ids": []
+  },
+  "state": "captain_decision",
+  "active_children": [],
+  "decisions_open": [
+    {
+      "id": "decision",
+      "key": "decision",
+      "verb": "captain-hold",
+      "summary": "API choice",
+      "reason": "Choose (API), \"quoted\" café 船 second line",
+      "hold_until": null,
+      "hold_bucket": "live",
+      "hold_age_days": 1,
+      "source": "backlog"
+    },
+    {
+      "id": "malformed",
+      "key": "malformed",
+      "verb": "captain-hold",
+      "summary": "Historical reason",
+      "reason": "fm-hold-v1:not-base64!",
+      "hold_until": null,
+      "hold_bucket": "live",
+      "hold_age_days": 1,
+      "source": "backlog"
+    }
+  ],
+  "holds": [
+    {
+      "id": "decision",
+      "title": "API choice",
+      "blocked_by": null,
+      "blocked_by_ids": [],
+      "unresolved_blocker_ids": [],
+      "reason": "Choose (API), \"quoted\" café 船 second line",
+      "source": "backlog"
+    },
+    {
+      "id": "malformed",
+      "title": "Historical reason",
+      "blocked_by": null,
+      "blocked_by_ids": [],
+      "unresolved_blocker_ids": [],
+      "reason": "fm-hold-v1:not-base64!",
+      "source": "backlog"
+    }
+  ],
+  "queued": [
+    {
+      "id": "decision",
+      "title": "API choice",
+      "blocked_by": null,
+      "blocked_by_ids": [],
+      "unresolved_blocker_ids": [],
+      "blocked_reason": null,
+      "hold_reason": "Choose (API), \"quoted\" café 船 second line",
+      "hold_kind": "captain",
+      "hold_until": null,
+      "hold_bucket": "live",
+      "hold_age_days": 1,
+      "captain_actionable": true,
+      "repo": "alpha",
+      "kind": "ship",
+      "since": "2026-07-24"
+    },
+    {
+      "id": "malformed",
+      "title": "Historical reason",
+      "blocked_by": null,
+      "blocked_by_ids": [],
+      "unresolved_blocker_ids": [],
+      "blocked_reason": null,
+      "hold_reason": "fm-hold-v1:not-base64!",
+      "hold_kind": "captain",
+      "hold_until": null,
+      "hold_bucket": "live",
+      "hold_age_days": 1,
+      "captain_actionable": true,
+      "repo": "alpha",
+      "kind": "ship",
+      "since": "2026-07-24"
+    }
+  ],
+  "landed": [
+    {
+      "id": "shipped",
+      "title": "Shipped",
+      "kind": "ship",
+      "hold_kind": null,
+      "pr_url": "https://github.com/kunchenguid/firstmate/pull/9",
+      "report_path": null,
+      "local_note": null,
+      "completion": {
+        "date": "2026-07-06",
+        "verb": "merged"
+      }
+    }
+  ],
+  "endpoints": [],
+  "counts": {
+    "active_children": 0,
+    "decisions_open": 2,
+    "holds": 2,
+    "queued": 2,
+    "landed": 1,
+    "endpoints": 0
+  },
+  "omitted": []
+}

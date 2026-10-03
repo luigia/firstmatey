@@ -1,0 +1,4 @@
+LIVE: bin/fm-fleet-snapshot.sh --secondmate-home-summary: 16 independent Perl seeds, exact raw stdout bytes identical; landed completion date=2026-07-06, verb=merged; valid=true.
+Published summary SHA256: 3762be6894299c497da280ccdb47fb6a4a08931c4ea5fef64f51c19a6240a868
+BASELINE: same CLI and home, pre-fix decoder: 2 distinct raw stdout byte sequences across 16 seeds. Regression reproduced.
+LIVE: isolated home with encoded Unicode, parentheses, commas, quotes and newline plus malformed base64 hold: 16 seeds produce identical raw summary bytes; decoded reason preserved with documented summary whitespace normalization, malformed reason unchanged; captain_decision and landed completion retained. --json also preserves both reasons.

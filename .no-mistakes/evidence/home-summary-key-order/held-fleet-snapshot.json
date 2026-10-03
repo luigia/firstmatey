@@ -1,0 +1,198 @@
+{
+  "schema": "fm-fleet-snapshot.v1",
+  "generated": "2026-07-25T00:00:00Z",
+  "fm_home": "/Users/luigi/.no-mistakes/worktrees/3fecfed7f577/01M40DW0SN0B03C3NZ8A1816YJ/.key-order-live-et573oh5/home",
+  "roots": {
+    "fm_root": "/Users/luigi/.no-mistakes/worktrees/3fecfed7f577/01M40DW0SN0B03C3NZ8A1816YJ",
+    "state": "/Users/luigi/.no-mistakes/worktrees/3fecfed7f577/01M40DW0SN0B03C3NZ8A1816YJ/.key-order-live-et573oh5/home/state",
+    "data": "/Users/luigi/.no-mistakes/worktrees/3fecfed7f577/01M40DW0SN0B03C3NZ8A1816YJ/.key-order-live-et573oh5/home/data",
+    "config": "/Users/luigi/.no-mistakes/worktrees/3fecfed7f577/01M40DW0SN0B03C3NZ8A1816YJ/.key-order-live-et573oh5/home/config",
+    "projects": "/Users/luigi/.no-mistakes/worktrees/3fecfed7f577/01M40DW0SN0B03C3NZ8A1816YJ/.key-order-live-et573oh5/home/projects"
+  },
+  "backlog": {
+    "path": "/Users/luigi/.no-mistakes/worktrees/3fecfed7f577/01M40DW0SN0B03C3NZ8A1816YJ/.key-order-live-et573oh5/home/data/backlog.md",
+    "present": true,
+    "records": [
+      {
+        "blocked_by": null,
+        "blocked_by_ids": [],
+        "blocked_reason": null,
+        "body_excerpt": null,
+        "body_lines": [],
+        "captain_actionable": true,
+        "checked": false,
+        "completion": {
+          "date": null,
+          "verb": null
+        },
+        "current_role": "queued",
+        "done": null,
+        "hold_age_days": 1,
+        "hold_bucket": "live",
+        "hold_kind": "captain",
+        "hold_reason": "Choose (API), \"quoted\" café 船\nsecond line",
+        "hold_set": null,
+        "hold_until": null,
+        "id": "decision",
+        "kind": "ship",
+        "links": [],
+        "local_note": null,
+        "merged": null,
+        "order": 1,
+        "pr_url": null,
+        "priority": null,
+        "raw": "- [ ] decision - API choice (repo: alpha) (kind: ship) (hold: fm-hold-v1:Q2hvb3NlIChBUEkpLCAicXVvdGVkIiBjYWbDqSDoiLkKc2Vjb25kIGxpbmU=) (hold-kind: captain) (since 2026-07-24)",
+        "repo": "alpha",
+        "report_path": null,
+        "reported": null,
+        "requires_child_metadata": false,
+        "since": "2026-07-24",
+        "state": "queued",
+        "structured": true,
+        "title": "API choice",
+        "unresolved_blocker_ids": []
+      },
+      {
+        "blocked_by": null,
+        "blocked_by_ids": [],
+        "blocked_reason": null,
+        "body_excerpt": null,
+        "body_lines": [],
+        "captain_actionable": true,
+        "checked": false,
+        "completion": {
+          "date": null,
+          "verb": null
+        },
+        "current_role": "queued",
+        "done": null,
+        "hold_age_days": 1,
+        "hold_bucket": "live",
+        "hold_kind": "captain",
+        "hold_reason": "fm-hold-v1:not-base64!",
+        "hold_set": null,
+        "hold_until": null,
+        "id": "malformed",
+        "kind": "ship",
+        "links": [],
+        "local_note": null,
+        "merged": null,
+        "order": 2,
+        "pr_url": null,
+        "priority": null,
+        "raw": "- [ ] malformed - Historical reason (repo: alpha) (kind: ship) (hold: fm-hold-v1:not-base64!) (hold-kind: captain) (since 2026-07-24)",
+        "repo": "alpha",
+        "report_path": null,
+        "reported": null,
+        "requires_child_metadata": false,
+        "since": "2026-07-24",
+        "state": "queued",
+        "structured": true,
+        "title": "Historical reason",
+        "unresolved_blocker_ids": []
+      },
+      {
+        "blocked_by": null,
+        "blocked_by_ids": [],
+        "blocked_reason": null,
+        "body_excerpt": null,
+        "body_lines": [],
+        "captain_actionable": false,
+        "checked": true,
+        "completion": {
+          "date": "2026-07-06",
+          "verb": "merged"
+        },
+        "current_role": "done",
+        "done": null,
+        "hold_age_days": null,
+        "hold_bucket": null,
+        "hold_kind": null,
+        "hold_reason": null,
+        "hold_set": null,
+        "hold_until": null,
+        "id": "shipped",
+        "kind": "ship",
+        "links": [
+          "https://github.com/kunchenguid/firstmate/pull/9"
+        ],
+        "local_note": null,
+        "merged": "2026-07-06",
+        "order": 3,
+        "pr_url": "https://github.com/kunchenguid/firstmate/pull/9",
+        "priority": null,
+        "raw": "- [x] shipped - Shipped https://github.com/kunchenguid/firstmate/pull/9 (repo: alpha) (kind: ship) (merged 2026-07-06)",
+        "repo": "alpha",
+        "report_path": null,
+        "reported": null,
+        "requires_child_metadata": false,
+        "since": null,
+        "state": "done",
+        "structured": true,
+        "title": "Shipped",
+        "unresolved_blocker_ids": []
+      }
+    ]
+  },
+  "tasks": [],
+  "main_inventory": {
+    "valid": true,
+    "reason": null,
+    "orphan_in_flight": [],
+    "unstructured_current_count": 0
+  },
+  "contributions": {
+    "known": 1,
+    "checked": 0,
+    "counts": {
+      "captain": 0,
+      "fleet": 1,
+      "maintainer": 0,
+      "nobody": 0
+    },
+    "unmeasured": 0,
+    "complete": false,
+    "proven_clear": false,
+    "stale_verdicts": 0,
+    "missing_verdicts": 0,
+    "unreadable_records": 0,
+    "valid_until": 900,
+    "captain": [],
+    "captain_omitted": 0
+  },
+  "scout_reports": [],
+  "secondmate_current": {
+    "registry": {
+      "present": false,
+      "available": true,
+      "complete": true,
+      "reason": null,
+      "provenance": "registered-table",
+      "path": "/Users/luigi/.no-mistakes/worktrees/3fecfed7f577/01M40DW0SN0B03C3NZ8A1816YJ/.key-order-live-et573oh5/home/data/secondmates.md",
+      "freshness": {
+        "status": "fresh",
+        "observed_at": "2026-07-25T00:00:00Z"
+      },
+      "records": [],
+      "input_truncated": false,
+      "records_truncated": false,
+      "reasons": [],
+      "lines_in_window": 0,
+      "records_in_window": 0
+    },
+    "records": [],
+    "total_registered": 0,
+    "total": 0,
+    "shown": 0,
+    "truncated": 0
+  },
+  "secondmate_landed": {
+    "records": [],
+    "truncated": [],
+    "unreadable": [],
+    "partial": []
+  },
+  "secondmate_guidance": {
+    "note": "For kind=secondmate, bearings selects validated structured state from that registered home; parent events and bounded terminal evidence are fallback-only supplements and never current-state authority."
+  }
+}
