@@ -1,0 +1,16 @@
+restart repetition 1
+ok - publication remains single-flight across watcher restart
+restart repetition 2
+ok - publication remains single-flight across watcher restart
+restart repetition 3
+tests/.gate-summary-restart.sh: line 160: 51144 Killed: 9               FM_ROOT_OVERRIDE="$ROOT" FM_HOME="$RESTART_HOME" bash -c '
+  . "$1/bin/fm-wake-lib.sh"
+  fm_lock_acquire_wait "$2/state/.home-summary-refresh.lock"
+  : > "$3"
+  sleep 30
+' _ "$ROOT" "$RESTART_HOME" "$RESTART_LOCK_MARKER"
+ok - publication remains single-flight across watcher restart
+restart repetition 4
+ok - publication remains single-flight across watcher restart
+restart repetition 5
+ok - publication remains single-flight across watcher restart
